@@ -1,0 +1,278 @@
+body{
+    background-image: url("Images/walpaperjpg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+    font-family: "Lora";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#title-section{
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: 85%;
+    align-items: center;
+    color: white;
+    font-family: "Lora";
+    margin-left: 20px;
+    
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    height:  50px;
+    width: 100%;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#drop-down-button{
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: none;
+    background: none;
+    color: white;
+    width: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#drop-down-button:hover{
+    background-color: white;
+    color: black;
+}
+
+#drop-down-menu{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 85%;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    display: none;
+}
+
+#drop-down-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#drop-down-menu-item{
+    width: 85%;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drop-down-menu-item:hover{
+    background-color: red;
+    transition: .7s;
+}
+
+#drop-down-menu-bottom{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(34, 34, 34);
+    text-align: right;
+    margin: 0px auto;
+}
+
+
+#section-1{
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.greetings{
+    width: 80%;
+    height: 350px;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    padding: 25px;
+    margin: 50px auto;
+    z-index: 0;
+}
+
+.greetings:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.shop-now{
+    width: 180px;
+    height: 70px;
+    border: none;
+    background: black;
+    color: white;
+    opacity: 0.7;
+    margin: 50px auto;
+}
+
+.shop-now:hover{
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+#section-2{
+    margin: 10px auto;
+    width: 95%;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+#popular{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    width: 250px;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.desc-img{
+    width: 98%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.prod-name{
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px auto;
+    font-size: 15px;
+}
+
+.price{
+    color: red;
+    opacity: 0.5;
+    margin: 15px auto;
+}
+
+.item:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+#see-all{
+    margin: 30px auto;
+    width: 200px;
+    height: 55px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#see-all:hover{
+    transition: .7s;
+    background-color: rgb(34, 34, 34);
+    color: black;
+}
+
+#section-3{
+    width: 85%;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    margin: 30px auto;
+    height: 100px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    height: 150px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+
+
+
+
+/*beyond this point is the styling for product1.html page*/
+

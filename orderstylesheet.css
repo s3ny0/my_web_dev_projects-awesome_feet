@@ -1,0 +1,213 @@
+body{
+    margin: 0px auto;
+    font-family: "Lora";
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#title-section{
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: 85%;
+    align-items: center;
+    color: white;
+    font-family: "Lora";
+    margin-left: 20px;
+    
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+    height:  50px;
+    width: 100%;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#drop-down-button{
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: none;
+    background: none;
+    color: white;
+    width: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#drop-down-button:hover{
+    background-color: white;
+    color: black;
+}
+
+#drop-down-menu{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 85%;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    display: none;
+}
+
+#drop-down-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#drop-down-menu-item{
+    width: 95%;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#drop-down-menu-item:hover{
+    background-color: red;
+    transition: .7s;
+}
+
+#drop-down-menu-bottom{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(34, 34, 34);
+    text-align: right;
+    margin: 0px auto;
+}
+
+.top-section{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin: 10px auto;
+    border: none;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+.form-section-1{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-section-2{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-section-3{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-section-4{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.radio{
+    margin: 10px 10px;
+    background-color: white;
+    border: none;
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+
+.submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: red;
+    color: white;
+    height: 200px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
